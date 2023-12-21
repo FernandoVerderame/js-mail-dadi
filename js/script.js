@@ -20,3 +20,6 @@ if (numberPlayerOne === numberPlayerTwo) {
 
 console.log(message);
 
+// Stampiamo in pagina i due tiri
+playerOne.innerHTML = `Il numero del player 1 è: <strong>${numberPlayerOne}</strong>`;
+playerTwo.innerHTML = `Il numero del player 1 è: <strong>${numberPlayerTwo}</strong>`;

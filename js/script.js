@@ -1,3 +1,5 @@
+// ! ESERCIZIO 1 - GIOCO DEI DADI
+
 // Prendiamo gli elementi dall HTML
 const playerOne = document.getElementById('player-one');
 const playerTwo = document.getElementById('player-two');

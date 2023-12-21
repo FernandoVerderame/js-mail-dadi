@@ -26,3 +26,16 @@ playerTwo.innerHTML = `Il numero del player 1 è: <strong>${numberPlayerTwo}</st
 
 // Stampiamo in pagina il risultato
 result.innerText = message;
+
+
+
+
+
+
+
+// ! ESERCIZIO 2 - FINTA LOGIN
+
+// Prendiamo gli elementi dall HTML 
+const email = document.getElementById('email');
+const button = document.getElementById('button');
+const check = document.getElementById('check');

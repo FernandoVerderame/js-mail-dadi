@@ -30,3 +30,23 @@ Consigli del giorno:
 5. proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"
 6. Il tuo codice ti sembra troppo complicato? probabilmente ti stai complicando la vita!
 Buon lavoro e buon divertimento!
+
+
+
+
+# SCALETTA ESERCIZIO 1 - GIOCO DEI DADI
+1. Generiamo un numero random per il player 1
+2. Generiamo un numero random per il player 2 
+3. Confrontiamoli tra di loro per stabilire chi fa il punteggio più alto
+4. Stampiamo in pagina i due tiri
+5. Stampiamo in pagina il risultato
+
+
+
+# SCALETTA ESERCIZIO 2 - FINTA LOGIN
+1. Inventiamo una lista di e-mail da inserire in un array
+2. Creiamo un input per inserire la mail
+3. Creiamo un button di invio
+4. Validazione e-mail inserita dall'utente 
+5. Stampiamo un messaggio appropriato sull'esito del controllo
+

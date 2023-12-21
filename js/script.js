@@ -39,3 +39,10 @@ result.innerText = message;
 const email = document.getElementById('email');
 const button = document.getElementById('button');
 const check = document.getElementById('check');
+
+// Array di email inventate 
+const emails = [
+    'fernandoverderame96@hotmail.it',
+    'marcolancellotti@gmail.com',
+    'martaseminara@tiscali.net'
+];

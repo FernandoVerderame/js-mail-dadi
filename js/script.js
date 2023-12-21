@@ -1,3 +1,4 @@
+/*
 // ! ESERCIZIO 1 - GIOCO DEI DADI
 
 // Prendiamo gli elementi dall HTML
@@ -26,7 +27,7 @@ playerTwo.innerHTML = `Il numero del player 1 è: <strong>${numberPlayerTwo}</st
 
 // Stampiamo in pagina il risultato
 result.innerText = message;
-
+*/
 
 
 
@@ -46,3 +47,24 @@ const emails = [
     'marcolancellotti@gmail.com',
     'martaseminara@tiscali.net'
 ];
+
+// Preparo il messaggio
+let messageCheck = '';
+
+button.addEventListener('click', function() {
+    const userEmail = email.value.trim();
+    console.log(userEmail);
+
+
+    for (let i = 0; i < emails.length; i++) {
+        // Validazione
+        if (userEmail !== emails[i]) {
+            messageCheck += 'La mail inserita non esiste!'
+
+        } else {
+            messageCheck += 'Bentornato!';
+
+        }
+    }
+})
+
